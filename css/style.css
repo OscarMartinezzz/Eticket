@@ -1,0 +1,85 @@
+
+:root{
+	
+	--color-rosa: #eec9df;
+	--fondo: #0000;
+	--texto-sub: #fff;
+}
+
+body{
+	background-color: #CF797A;
+	color: #fff;
+	
+}
+
+footer{
+	background-color: #343434;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+
+#hero{
+	background-color: #93E6C7;
+}
+#hero img{
+	width: 900px;
+}
+
+#hero p{
+	text-align: center;
+	background-color: var(--color-rosa);
+}
+
+
+
+#know{
+	background-color: #A6E572;
+}
+#know img{
+	width: 300px;
+}
+
+
+
+
+#partners{
+	background-color: #8CB1E4;
+}
+
+#partners img{
+	width: 200px;
+}
+
+.lineup {
+	text-align: center;
+            padding: 20px;
+}
+
+.lineup h2{
+	 font-size: 24px;
+            margin-bottom: 40px;
+}
+
+ .artist-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .artist {
+            text-align: center;
+        }
+        .artist img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .artist p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+
+
