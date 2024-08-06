@@ -7,9 +7,9 @@
 }
 
 body{
-	background-color: #CF797A;
+	background-color:rgba(0,0,0,1.00);
 	color: #fff;
-	
+	margin: 0px;
 }
 
 footer{
@@ -21,28 +21,45 @@ footer{
 
 
 #hero{
-	background-color: #93E6C7;
+	background-color:rgba(0,0,0,1.00);
+}
+
+#hero h1 {
+	text-align: center;
+	font-family: "GalanoGrotesque-ExtraBold"
+	
+	
 }
 #hero img{
-	width: 900px;
+	width: 800px;
+	clip-path: inset(144px 10px 144px 10px)
+	
 }
 
 #hero p{
 	text-align: center;
 	background-color: var(--color-rosa);
+	padding: 10px;
+	font-size: 20px
 }
 
 
 
 #know{
-	background-color: #A6E572;
+	background-color:rgba(0,0,0,1.00);
 }
 #know img{
 	width: 300px;
+	align-content: center;
 }
 
+#know h2{
+	color: #eec9df;
+}
 
-
+#know h3{
+	color: #eec9df;
+}
 
 #partners{
 	background-color: #8CB1E4;
@@ -51,6 +68,22 @@ footer{
 #partners img{
 	width: 200px;
 }
+
+#stage {
+	align-content: flex-end
+	
+}
+
+#subcription{
+	background-image: url("../img/how-to-shoot-music-concert-featured-image.webp");
+	background-size:cover;
+	padding: 80px
+}
+#subcription h2{
+	color: #eec9df;
+	
+}
+
 
 .lineup {
 	text-align: center;
