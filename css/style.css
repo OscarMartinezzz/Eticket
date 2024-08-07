@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+
+
+
 
 :root{
 	
@@ -10,13 +19,23 @@ body{
 	background-color:rgba(0,0,0,1.00);
 	color: #fff;
 	margin: 0px;
+	font-family: "Rubik", sans-serif;
 }
 
 footer{
-	background-color: #343434;
+	background-color: #0A0A0A;
 	text-align: center;
 	padding: 20px 0;
 }
+
+
+
+
+#navbar .pink{
+	color: var(--color-rosa);
+}
+
+
 
 
 
@@ -26,13 +45,20 @@ footer{
 
 #hero h1 {
 	text-align: center;
-	font-family: "GalanoGrotesque-ExtraBold"
-	
+	 font-family: "Archivo Black", sans-serif;
+	font-weight: 700;
 	
 }
+
+
+#hero .pink{
+	color: var(--color-rosa);
+}
+
 #hero img{
 	width: 800px;
-	clip-path: inset(144px 10px 144px 10px)
+	padding-bottom: -200px;
+	padding-top: -90px;
 	
 }
 
@@ -40,13 +66,23 @@ footer{
 	text-align: center;
 	background-color: var(--color-rosa);
 	padding: 10px;
-	font-size: 20px
+	font-size: 25px;
+	font-weight: 600;
 }
+
+#hero .black{
+	color: #000000;
+}
+
+
+
+
 
 
 
 #know{
 	background-color:rgba(0,0,0,1.00);
+	padding: 60px;
 }
 #know img{
 	width: 300px;
@@ -55,64 +91,112 @@ footer{
 
 #know h2{
 	color: #eec9df;
+	 font-family: "Archivo Black", sans-serif;
+	font-size: 60px;
 }
 
 #know h3{
 	color: #eec9df;
 }
 
+
+
 #partners{
-	background-color: #8CB1E4;
+	background-color: #000000;
 }
 
 #partners img{
 	width: 200px;
 }
 
-#stage {
-	align-content: flex-end
-	
-}
+
+
+
+
+
+
+
 
 #subcription{
-	background-image: url("../img/how-to-shoot-music-concert-featured-image.webp");
+	background-image: url("../img/rock.png");
 	background-size:cover;
-	padding: 80px
-}
-#subcription h2{
-	color: #eec9df;
+	padding: 80px;
 	
 }
 
 
-.lineup {
+
+#subcription h2{
+	color: #eec9df;
+	font-family: "Archivo Black", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	
+}
+
+
+
+
+
+#lineup {
 	text-align: center;
             padding: 20px;
 }
 
-.lineup h2{
-	 font-size: 24px;
-            margin-bottom: 40px;
+#lineup p{
+	font-size: 20px;
+	text-transform: uppercase; 
+	font-family: "Archivo Black", sans-serif;
 }
 
- .artist-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .artist {
-            text-align: center;
-        }
-        .artist img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 8px;
-        }
-        .artist p {
-            margin-top: 10px;
-            font-size: 18px;
-        }
+#lineup h2{
+	 font-size: 24px;
+     margin-bottom: 40px;
+	 font-family: "Archivo Black", sans-serif;
+}
+
+#lineup img{
+	width: 400px;
+	padding: 0 30px;
+}
+ 
+
+
+
+
+#partners li{
+	font-size: 20px;
+	font-weight: 100;
+	padding: 0 14px;
+	padding-top: 30px;
+	text-decoration: underline;
+}
+
+li a{
+	color: #fff;
+}
+
+
+.pink i{
+	color: var(--color-rosa);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
